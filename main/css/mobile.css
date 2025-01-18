@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+    header{
+        display: none;
+    }
+#mobile-nav.hidden {
+    display: none;
+}
+#mobile-nav {
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+#mobile-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#mobile-nav li {
+    margin: 10px 0;
+}
+
+#mobile-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+}
+
+.mobile-menu .bar {
+    background-color: #333;
+    height: 4px;
+    margin: 4px 0;
+    width: 100%;
+}
+.collage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px;
+    width: 100%; 
+    max-width: 1200px;  
+}
+
+.collage img {
+    width: 100%;  
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.slider{
+    flex-direction: column;
+}
+.slider div{
+    width: 100%;
+}
+}
+@media (max-width: 425px) {
+    .template-body{
+        display: block;
+    }
+    .template-body img {
+        width: 100%;
+    }
+    .development-section {
+        flex-direction: column;
+    }
+    .development-section div{
+        width: 100%;
+    }
+    .our-brands div{
+        flex-direction: column;
+    }
+    .our-brands div img{
+        width: 100%;
+    }
+    .brands-description{
+        flex-direction: column;
+    }
+    .brands-description article{
+        width: 100%;
+    }
+    .brands-description figure{
+        width: 100%;
+    }
+    footer{
+        font-size: 12px;
+    }
+}

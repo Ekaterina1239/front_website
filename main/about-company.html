@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>About company</title>
+</head>
+<body>
+    <header>
+        <ul class="header">
+        <li><a href="#"><img src="images/Coke-company-logo-black.svg" alt="logo"></a></li>
+        <li><a href="#" onclick="toggleDropdown()">Our Company</a></li>
+        <li> <a href="#" onclick="toggleBrands()">Brands</a></li>
+        <li> <a href="#" onclick="toggleSustainability()">Sustainability</a></li>
+        <li><a href="#" onclick="toggleSocialImpact()">Social Impact</a></li>
+        <li><a href="#" onclick="toggleCareers()">Careers</a></li>
+        </ul>
+    </header>
+    
+    <div id="mobile-menu" class="mobile-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="mobile-nav" class="hidden">
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about-company.html">About us</a></li>
+            <li><a href="sustainable-development.html">Sustainable development</a></li>
+            <li><a href="community.html">Social</a></li>
+            <li><a href="about-company.html">About us</a></li>
+            <li><a href="communication.html">Communication</a></li>
+        </ul>
+    </nav>
+    <div id="dropdown-content" class="dropdown-content">
+        <h2>138+ years of refreshing the world</h2>
+        <p>The Coca‑Cola Company has been refreshing the world and making a difference for over 138 years. Explore our Purpose & Vision, History, and more.</p>
+        <a href="#">Purpose & Company Vision</a>
+        <a href="#">The Coca‑Cola System</a>
+        <a href="#">Leadership</a>
+        <h3>Our Board of Directors</h3>
+        <a href="#">COCA-COLA HISTORY</a>
+        <a href="#">Our Origins</a>
+        <a href="#">Our First Bottle</a>
+        <a href="#">Sustainability History</a>
+        <a href="#">Advertising History</a>
+    </div>
+    <div id="brands-dropdown" class="dropdown-content">
+        <h2>200+ brands worldwide</h2>
+        <p>We've established a portfolio of drinks that are best positioned to grow in an ever-changing marketplace.</p>
+
+        <h3>SPARKLING</h3>
+        <ul>
+            <li>Coca‑Cola</li>
+            <li>Diet Coke</li>
+            <li>Fanta</li>
+            <li>Sprite</li>
+        </ul>
+        <span class="view-more" onclick="alert('View more sparkling brands!')">+ View More</span>
+
+        <h3>HYDRATION</h3>
+        <ul>
+            <li>BODYARMOR</li>
+            <li>Dasani</li>
+            <li>Powerade</li>
+            <li>smartwater</li>
+            <li>Topo Chico</li>
+        </ul>
+        <span class="view-more" onclick="alert('View more hydration brands!')">+ View More</span>
+
+        <h3>COFFEE & TEA</h3>
+        <ul>
+            <li>Costa Coffee</li>
+            <li>FuzeTea</li>
+            <li>Gold Peak Tea</li>
+            <li>Peace Tea</li>
+        </ul>
+        <span class="view-more" onclick="alert('View more coffee & tea brands!')">+ View More</span>
+
+        <h3>JUICES & DAIRY</h3>
+        <ul>
+            <li>fairlife</li>
+            <li>innocent</li>
+            <li>Minute Maid</li>
+            <li>Simply</li>
+        </ul>
+        <span class="view-more" onclick="alert('View more juices & dairy brands!')">+ View More</span>
+
+        <h3>ALCOHOL</h3>
+        <ul>
+            <li>Fresca Mixed</li>
+            <li>Jack Daniel's & Coca‑Cola</li>
+            <li>Simply Spiked</li>
+            <li>Topo Chico Hard Seltzer</li>
+        </ul>
+        <span class="view-more" onclick="alert('View more alcohol brands!')">+ View More</span>
+    </div>
+    <div id="sustainability-dropdown" class="dropdown-content">
+        <h2>OUR PLANET MATTERS</h2>
+        <p>Our purpose is to refresh the world and make a difference. See how our company and system employees make this possible every day and learn more about our areas of focus in sustainability.</p>
+
+        <h3>Water</h3>
+        <ul>
+            <li>2030 Water Strategy Key Goals</li>
+        </ul>
+
+        <h3>Agriculture</h3>
+        <ul>
+            <li>Principles for Sustainable Agriculture (PSAs)</li>
+        </ul>
+
+        <h3>Packaging</h3>
+        <ul>
+            <li>Collection Strategy</li>
+            <li>Packaging Design</li>
+            <li>Partnership</li>
+        </ul>
+
+        <h3>Climate</h3>
+        <ul>
+            <li>In Our Products</li>
+        </ul>
+
+        <h3>Sugar Reduction</h3>
+        <ul>
+            <li>2023 Environmental Update</li>
+            <li>2022 Business & Sustainability Report</li>
+            <li>Sustainability & Governance Resource Center</li>
+        </ul>
+    </div>
+    <div id="social-impact-dropdown" class="dropdown-content">
+        <h2>PEOPLE MATTER</h2>
+        <p>We aim to improve people's lives, from our employees to those who touch our business to the many communities we call home.</p>
+
+        <h3>Diversity, Equity and Inclusion</h3>
+        <ul>
+            <li><a href="#">Leadership Council</a></li>
+            <li><a href="#">Employee Groups</a></li>
+        </ul>
+
+        <h3>People & Communities</h3>
+        <ul>
+            <li><a href="#">Women Empowerment</a></li>
+            <li><a href="#">Project Last Mile</a></li>
+        </ul>
+
+        <h3>HUMAN RIGHTS</h3>
+        <ul>
+            <li><a href="#">Human Rights Governance</a></li>
+            <li><a href="#">Stories of IMPACT</a></li>
+        </ul>
+
+        <h3>Sports & Entertainment</h3>
+        <ul>
+            <li><a href="#">Paris 2024 Hub</a></li>
+            <li><a href="#">Coca‑Cola Foundation</a></li>
+            <li><a href="#">Partnerships</a></li>
+            <li><a href="#">Supplier Diversity</a></li>
+        </ul>
+
+        <h3>Reports</h3>
+        <ul>
+            <li><a href="#">2022 Business & Sustainability Report</a></li>
+            <li><a href="#">Sustainability & Governance Resource Center</a></li>
+        </ul>
+    </div>
+    <div id="careers-dropdown" class="dropdown-content">
+        <h2>CAREERS</h2>
+        <p>We believe working at The Coca‑Cola Company is an opportunity to build a meaningful career while helping us make a real difference on a global scale.</p>
+
+        <h3>Life at Coca-Cola</h3>
+        <ul>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Benefits</a></li>
+            <li><a href="#">Career Development</a></li>
+            <li><a href="#">Work With Us</a></li>
+        </ul>
+
+        <h3>Career Areas</h3>
+        <ul>
+            <li><a href="#">Early Career</a></li>
+            <li><a href="#">Experienced Professionals</a></li>
+            <li><a href="#">Military</a></li>
+            <li><a href="#">Accessible Workplace</a></li>
+        </ul>
+
+        <h3>Hiring Process</h3>
+        <ul>
+            <li><a href="#">Application Process</a></li>
+            <li><a href="#">Interview</a></li>
+            <li><a href="#">Offers</a></li>
+        </ul>
+
+        <h3>Job Search</h3>
+        <ul>
+            <li><a href="#">Coca‑Cola Company Jobs</a></li>
+            <li><a href="#">Coca‑Cola System Jobs</a></li>
+        </ul>
+
+        <h3>Get the Latest</h3>
+        <ul>
+            <li><a href="#">View all news</a></li>
+        </ul>
+
+        <h3>What Others Are Reading</h3>
+        <ul>
+            <li><a href="#">Coca-Cola Reports Fourth Quarter and Full-Year 2023 Results</a></li>
+            <li><a href="#">Coca-Cola and the OREO Brand are Teaming Up</a></li>
+            <li><a href="#">Coca-Cola Reports Third Quarter 2024 Results and Provides Updated Guidance</a></li>
+        </ul>
+
+        <h3>Latest Articles</h3>
+        <ul>
+            <li><a href="#">Coca-Cola Reports Third Quarter 2024 Results</a></li>
+            <li><a href="#">The Coca-Cola Company Announces New Reporting Lines for Costa Coffee</a></li>
+            <li><a href="#">The Coca-Cola Company Announces Participation in Morgan Stanley Global Conference</a></li>
+        </ul>
+    </div>
+    <main>
+        <section>
+            <img class="mySlides" src="images/width1960 (17).webp">
+        </section>
+        <article class="about-us-story">
+            <b>
+                On May 8, 1886, Dr. John Pemberton brought his perfected syrup to Jacobs' Pharmacy in downtown
+                 Atlanta where the first glass of Coca‑Cola was poured. From that one iconic drink, we’ve evolved
+                  into a total beverage company. More than 2.2 billion servings of our drinks are enjoyed in 
+                  more than 200 countries and territories each day.
+We are constantly transforming our portfolio, from reducing added sugar in our drinks to bringing
+ innovative new products to market. We seek to positively impact people’s lives, communities and
+  the planet through water replenishment, packaging recycling, sustainable sourcing practices and
+   carbon emissions reductions across our value chain. Together with our bottling partners, we employ
+    more than 700,000 people, helping bring economic opportunity to local communities worldwide.
+            </b>
+        </article>
+        <section class="general-info">
+            <div class="template-body">
+                <div class="information">
+                    <h2>Our purpose is to refresh the world and make a difference.</h2>
+                    <p>We are committed to offering people more of the drinks they want across a range of categories and sizes while driving sustainable 
+                        solutions that build resilience into our business and create positive change for the planet.</p>
+                    <button>More details</button>
+                </div>
+                <img src="images/width1960 (18).webp" alt="">
+            </div>
+            <div class="template-body">
+                <img src="images/width1960 (19).webp" alt="">
+                <div class="information">
+                    <h2>Total Beverage Company</h2>
+                    <p>Our beverage portfolio has expanded to more than 200 brands and thousands of beverages around the
+                         world, from soft drinks and 
+                        waters, to coffee and teas. Learn more about our brands and our commitment to quality products.</p>
+                    <button>More details</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="video">
+            <img src="images/maxresdefault.jpg" alt="video">
+            <div class="play-button">
+                <div class="triangle"></div>
+            </div>
+        </section>
+        <section class="general-info">
+            <div class="template-body">
+                <div class="information">
+                    <h2>Our people are as diverse as our communities</h2>
+                    <p>Together with our bottling partners, we employ more than
+                         700,000 people, helping bring economic opportunity to local communities worldwide..</p>
+                    <button>More details</button>
+                </div>
+                <img src="images/width1960 (20).webp" alt="">
+            </div>
+            <div class="template-body">
+                <img src="images/width1960 (21).webp" alt="">
+                <div class="information">
+                    <h2>Our People Power our Purpose</h2>
+                    <p>Our People Power our Purpose
+                        As a purpose-driven company, we help create a better shared future for everyone our brands and business system touches by working to provide access to equal opportunity and 
+                        fostering belonging both in our workplaces and the communities we serve. </p>
+                    <button>More details</button>
+                </div>
+
+            </div>
+            <div class="template-body">
+                <div class="information">
+                    <h2>History of The Coca‑Cola Company</h2>
+                    <p>Since its birth at a soda fountain in downtown Atlanta in 1886, 
+                        Coca‑Cola has been a catalyst for social interaction and inspired innovation.
+                         Discover the unique moments from our past, like the evolution of the iconic Coca‑Cola bottle, the lovable Coca‑Cola Santa Claus, and more.</p>
+                    <button>More details</button>
+                </div>
+                <img src="images/width1960 (22).webp" alt="">
+            </div>
+            <div class="template-body">
+                <img src="images/width1960 (23).webp" alt="">
+                <div class="information">
+                    <h2>The Coca‑Cola System</h2>
+                    <p>Local bottlers work with us to bring our Coca‑Cola brand drinks to wherever you are in the world. 
+                        Over 225 bottling partners across 900 bottling
+                         plants make up the Coca‑Cola system and help us deliver refreshment globally.</p>
+                    <button>More details</button>
+                </div>
+
+            </div>
+        </section>
+        <h1 class="general-info-title">Related Content</h1>
+        <section class="development-section">
+            <div class="block">
+                <img src="images/system-landing-sm-thumbnail.webp">
+                <div>
+                    <h5>Water Resource Management</h5>
+                   
+                    <div><a href="" class="more">More</a><span>&rarr;</span></div>
+                </div>
+            </div>
+            <div class="block">
+                <img src="images/coca-cola-company-at-a-glance-overview-infographic.webp">
+                <div >
+                    <h5>Combating Climate Change</h5>
+                    <div><a href="" class="more">More</a><span>&rarr;</span></div>
+                </div>
+            </div>
+            <div class="block">
+                <img src="images/marketing-responsibly-in-us-1440x480.webp">
+                <div >
+                    <h5>Combating Climate Change</h5>
+                    <div><a href="" class="more">More</a><span>&rarr;</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main-info-footer"> <img src="images/logo-white-large.svg" alt=""><p>Uzbekistan</p></div>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-block1">
+                <p><a href="">About us</a></p>
+                <p><a href="">About the Company</a></p>
+                <p><a href="">History</a></p>
+                <p><a href="">Media Center</a></p>
+            </div>
+
+            <div class="footer-block2">
+                <p><a href="">Need Help?</a></p>
+                <p><a href="">Sitemap</a></p>
+                <p><a href="">Contacts</a></p>
+            </div>
+            <div class="footer-block3">
+                <p><a href="">Legal Information</a></p>
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms of Use</a></p>
+                <p><a href="">Cookie Settings</a></p>
+            </div>
+            <div class="footer-block4">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/2168281.png" alt="Facebook" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/1384015.png" alt="Instagram" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <img src="images/1384012.png" alt="YouTube" style="width: 24px; height: 24px;">
+                </a>
+            </div>
+        </div>
+        <hr>
+        <p>© 2024 The Coca‑Cola Company.</p>
+</footer>
+<script src="javascript/mobile-header.js"></script>
+<script src="javascript/header-info.js"></script>
+</body>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Brands</title>
+</head>
+<body>
+    <header>
+        <ul class="header">
+        <li><a href="index.html"><img src="images/Coke-company-logo-black.svg" alt="logo"></a></li>
+        <li><a href="brands.html">Brands</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropbtn">Influence</a>
+            <div class="dropdown-content">
+                <a href="sustainable-development.html">Sustainable development</a>
+                <a href="community.html">Social</a>
+            </div>
+        </li>
+        <li><a href="about-company.html">About us</a></li>
+        <li><a href="communication.html">Communication</a></li>
+        </ul>
+    </header>
+    
+    <div id="mobile-menu" class="mobile-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="mobile-nav" class="hidden">
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about-company.html">About us</a></li>
+            <li><a href="sustainable-development.html">Sustainable development</a></li>
+            <li><a href="community.html">Social</a></li>
+            <li><a href="about-company.html">About us</a></li>
+            <li><a href="communication.html">Communication</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="general-info-title">Meet our brands</h1>
+        <p class="sorting-text">Choose parametrs for sorting</p>
+        <section class="our-brands">
+            <div>
+            <img src="images/180x180-01.svg" >
+            <img src="images/fanta-180x180-01.svg" >
+            <img src="images/sprite logo 180x180-01-01.svg" >
+            </div>
+        </section>
+        <div class="brands-description">
+            <figure>
+                <div class="main-picture-brand">
+                    <img src="images/180x180-01.svg" >
+                </div>
+               <div class="other-brands-picture">
+                <img src="images/fanta-180x180-01.svg" >
+                <img src="images/sprite logo 180x180-01-01.svg" >
+               </div>
+            </figure>
+            <article>
+                <h3>About us</h3>
+                <p>
+                     We don’t just make cola—we craft moments of happiness,
+                     one fizzy bubble at a time.
+                    Since our beginning in [Year Founded], our mission has been simple:
+                     to create a cola that’s refreshingly bold, irresistibly delicious, and brings people together. Whether it’s a toast at a celebration, a break during a busy day, or a treat shared 
+                    with friends, our cola has been at the heart of countless memories
+                    We’re proud to use only the finest ingredients to deliver that perfect balance of sweetness and fizz in every sip. From our signature recipe to our commitment to quality, every bottle and can is a promise of refreshment you can trust.
+                 We’re about more than great taste. We believe in making a difference—from embracing sustainable practices to giving back to the communities we’re honored to serve.
+                So, pop open a [Brand Name] and let’s make every moment a little more bubbly, a little more vibrant, and a lot more unforgettable.
+                </p>
+            </article>
+        </div>
+        <div class="accordion" id="cokeAccordion">
+            <button class="accordion-button">What is Coca-Cola?</button>
+            <div class="panel">
+                <p>Coca-Cola is a globally recognized soft drink brand known for its signature sweet and refreshing taste. It was created in 1886 and has become one of the most iconic beverages in the world.</p>
+            </div>
+        
+            <button class="accordion-button">History of Coca-Cola</button>
+            <div class="panel">
+                <p>The history of Coca-Cola dates back to 1886 when Dr. John Pemberton, a pharmacist in Atlanta, Georgia, first created the formula. The drink quickly gained popularity and has been a part of global culture for over a century.</p>
+            </div>
+        
+            <button class="accordion-button">Coca-Cola's Brand Values</button>
+            <div class="panel">
+                <p>Coca-Cola stands for refreshment, happiness, and inclusivity. The brand emphasizes bringing people together, creating moments of joy, and fostering a positive community experience.</p>
+            </div>
+        
+            <button class="accordion-button">Fun Coca-Cola Facts</button>
+            <div class="panel">
+                <p>Did you know that Coca-Cola was originally marketed as a tonic for various ailments? It is also the world's most popular soft drink and is sold in more than 200 countries worldwide.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="main-info-footer"> <img src="images/logo-white-large.svg" alt=""><p>Uzbekistan</p></div>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-block1">
+                <p><a href="">About us</a></p>
+                <p><a href="">About the Company</a></p>
+                <p><a href="">History</a></p>
+                <p><a href="">Media Center</a></p>
+            </div>
+
+            <div class="footer-block2">
+                <p><a href="">Need Help?</a></p>
+                <p><a href="">Sitemap</a></p>
+                <p><a href="">Contacts</a></p>
+            </div>
+            <div class="footer-block3">
+                <p><a href="">Legal Information</a></p>
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms of Use</a></p>
+                <p><a href="">Cookie Settings</a></p>
+            </div>
+            <div class="footer-block4">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/2168281.png" alt="Facebook" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/1384015.png" alt="Instagram" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <img src="images/1384012.png" alt="YouTube" style="width: 24px; height: 24px;">
+                </a>
+            </div>
+        </div>
+        <hr>
+        <p>© 2024 The Coca‑Cola Company.</p>
+</footer>
+<script src="javascript/mobile-header.js"></script>
+<script src="javascript/accordion.js"></script>
+</body>
+</html>

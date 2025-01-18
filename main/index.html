@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="javascript/mobile-header.js" ></script>
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <ul class="header">
+        <li><a href="index.html"><img src="images/Coke-company-logo-black.svg" alt="logo"></a></li>
+        <li><a href="brands.html">Brands</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropbtn">Influence</a>
+            <div class="dropdown-content">
+                <a href="sustainable-development.html">Sustainable development</a>
+                <a href="community.html">Social</a>
+            </div>
+        </li>
+        <li><a href="about-company.html">About us</a></li>
+        <li><a href="communication.html">Communication</a></li>
+        </ul>
+    </header>
+    
+    <div id="mobile-menu" class="mobile-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav id="mobile-nav" class="hidden">
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about-company.html">About us</a></li>
+            <li><a href="sustainable-development.html">Sustainable development</a></li>
+            <li><a href="community.html">Social</a></li>
+            <li><a href="about-company.html">About us</a></li>
+            <li><a href="communication.html">Communication</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <img class="mySlides" src="images/width1960 (1).webp" style="display: block;">
+            <img class="mySlides" src="images/width1960 (2).webp" style="display: none;">
+            <img class="mySlides" src="images/width1960 (3).webp" style="display: none;">
+            <img class="mySlides" src="images/width1960.webp" style="display: none;">
+            
+            <div class="button-container">
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)"> &#10094 </button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(1)"> &#10095; </button>
+            </div>
+        </section>
+        
+        <h1 class="general-info-title">Global Influence</h1>
+        <section class="general-info">
+            <div class="template-body">
+                <div class="information">
+                    <h2>SUSTAINABILITY</h2>
+                    <p>Everything you need to know about Coca-Cola Uzbekistan's sustainable development concepts and projects.</p>
+                    <button>More details</button>
+                </div>
+                <img src="images/width1960 (4).webp" alt="">
+            </div>
+            <div class="template-body">
+                <img src="images/width1960 (5).webp" alt="">
+                <div class="information">
+                    <h2>ABOUT US</h2>
+                    <p>Detailed information about Coca-Cola's operations in Uzbekistan.</p>
+                    <button>More details</button>
+                </div>
+
+            </div>
+        </section>
+        <h1 class="general-info-title">Meet our brands</h1>
+        <section class="our-brands">
+            <div>
+                <img src="images/180x180-01.svg" alt="">
+            <img src="images/fanta-180x180-01.svg" alt="">
+            <img src="images/sprite logo 180x180-01-01.svg" alt="">
+            </div>
+            <button>View all</button>
+        </section>
+    </main>
+    <footer>
+            <div class="main-info-footer"> <img src="images/logo-white-large.svg" alt=""><p>Uzbekistan</p></div>
+            <hr>
+            <div class="footer-content">
+                <div class="footer-block1">
+                    <p><a href="">About us</a></p>
+                    <p><a href="">About the Company</a></p>
+                    <p><a href="">History</a></p>
+                    <p><a href="">Media Center</a></p>
+                </div>
+
+                <div class="footer-block2">
+                    <p><a href="">Need Help?</a></p>
+                    <p><a href="">Sitemap</a></p>
+                    <p><a href="">Contacts</a></p>
+                </div>
+                <div class="footer-block3">
+                    <p><a href="">Legal Information</a></p>
+                    <p><a href="">Privacy Policy</a></p>
+                    <p><a href="">Terms of Use</a></p>
+                    <p><a href="">Cookie Settings</a></p>
+                </div>
+                <div class="footer-block4">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/2168281.png" alt="Facebook" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/1384015.png" alt="Instagram" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/1384012.png" alt="YouTube" style="width: 24px; height: 24px;">
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <p>© 2024 The Coca‑Cola Company.</p>
+    </footer>
+    <script src="javascript/slider.js"></script>
+</body>
+</html>
